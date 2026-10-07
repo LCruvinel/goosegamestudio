@@ -131,6 +131,7 @@ sudo docker compose down
 
 HTTPS is handled by Caddy automatically when `SITE_DOMAIN` points to this server and ports `80` and `443` are reachable from the internet.
 If the domain is not yet pointed to the VM, certificate issuance will fail until DNS is updated.
+If you do not control DNS at all, you cannot obtain a publicly trusted certificate for the final domain yet; use HTTP for temporary testing or Caddy's private `tls internal` mode for local-only testing with browser trust warnings.
 
 ### Temporary testing options
 
@@ -141,6 +142,8 @@ If your production domain still points to another IP, use one of these approache
 - for private-only testing, use Caddy's `tls internal` mode, knowing browsers will show a trust warning because the certificate is signed by Caddy's local CA
 
 In all cases, keep `SITE_DOMAIN` and `NEXT_PUBLIC_SITE_URL` aligned with the temporary hostname you are actually using.
+
+If you cannot change DNS anywhere, the simplest safe path is to keep this environment on HTTP until the final migration window, then switch to public HTTPS when the domain becomes available here.
 
 ## Scripts
 
