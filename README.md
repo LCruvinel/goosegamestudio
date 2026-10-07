@@ -40,7 +40,7 @@ docker compose up --build
 This project is already containerized with:
 
 - multi-stage Next.js production image
-- runtime reverse proxy (Nginx)
+- runtime reverse proxy (Caddy with automatic HTTPS)
 - healthchecks and restart policy
 
 ### 1. Connect to your VM
@@ -76,6 +76,8 @@ nano .env
 
 Set at least:
 
+- `SITE_DOMAIN` (your public domain pointing to the VM)
+- `CADDY_EMAIL` (email used for Let's Encrypt)
 - `NEXT_PUBLIC_SITE_URL` (your public domain or VM URL)
 - `NEXT_PUBLIC_SITE_NAME`
 - `NEXT_PUBLIC_CONTACT_EMAIL`
@@ -83,7 +85,7 @@ Set at least:
 ### 5. Build and start containers
 
 ```bash
-sudo docker compose pull nginx
+sudo docker compose pull caddy
 sudo docker compose up -d --build
 ```
 
@@ -92,20 +94,21 @@ sudo docker compose up -d --build
 ```bash
 sudo docker compose ps
 sudo docker compose logs --tail=150 app
-sudo docker compose logs --tail=150 nginx
-curl -I http://127.0.0.1
+sudo docker compose logs --tail=150 caddy
+curl -I https://<YOUR_DOMAIN>
 ```
 
-Expected result: HTTP `200` or `301/308` from Nginx and both containers `healthy`.
+Expected result: HTTPS `200` or `301/308` from Caddy and both containers running.
 
 ### 7. Open networking in Oracle Cloud
 
-In your Oracle Cloud VCN security list / NSG, allow inbound TCP `80` from your target CIDR.
+In your Oracle Cloud VCN security list / NSG, allow inbound TCP `80` and `443` from your target CIDR.
 
 Optional host firewall (if UFW is enabled):
 
 ```bash
 sudo ufw allow 80/tcp
+sudo ufw allow 443/tcp
 sudo ufw status
 ```
 
@@ -126,8 +129,8 @@ sudo docker compose down
 
 ### HTTPS note
 
-Current compose/nginx setup publishes HTTP on port `80`.
-For HTTPS in production, add TLS termination (for example: load balancer, Caddy, Traefik, or Nginx with certificates).
+HTTPS is handled by Caddy automatically when `SITE_DOMAIN` points to this server and ports `80` and `443` are reachable from the internet.
+If the domain is not yet pointed to the VM, certificate issuance will fail until DNS is updated.
 
 ## Scripts
 
