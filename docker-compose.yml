@@ -38,6 +38,7 @@ services:
     environment:
       SITE_DOMAIN: ${SITE_DOMAIN:-goosegamestudio.com}
       CADDY_EMAIL: ${CADDY_EMAIL:-hello@goosegamestudio.com}
+      CADDY_TLS_DIRECTIVE: ${CADDY_TLS_DIRECTIVE:-}
     volumes:
       - ./Caddyfile:/etc/caddy/Caddyfile:ro
       - caddy_data:/data

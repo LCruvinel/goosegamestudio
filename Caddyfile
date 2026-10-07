@@ -3,6 +3,7 @@
 }
 
 {$SITE_DOMAIN} {
-	encode gzip zstd
+	encode gzip zstd 
+	{$CADDY_TLS_DIRECTIVE}
 	reverse_proxy app:3000
 }

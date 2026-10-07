@@ -78,6 +78,7 @@ Set at least:
 
 - `SITE_DOMAIN` (your public domain pointing to the VM)
 - `CADDY_EMAIL` (email used for Let's Encrypt)
+- `CADDY_TLS_DIRECTIVE` (leave empty for public HTTPS; set to `tls internal` for private test-only HTTPS)
 - `NEXT_PUBLIC_SITE_URL` (your public domain or VM URL)
 - `NEXT_PUBLIC_SITE_NAME`
 - `NEXT_PUBLIC_CONTACT_EMAIL`
@@ -132,6 +133,8 @@ sudo docker compose down
 HTTPS is handled by Caddy automatically when `SITE_DOMAIN` points to this server and ports `80` and `443` are reachable from the internet.
 If the domain is not yet pointed to the VM, certificate issuance will fail until DNS is updated.
 If you do not control DNS at all, you cannot obtain a publicly trusted certificate for the final domain yet; use HTTP for temporary testing or Caddy's private `tls internal` mode for local-only testing with browser trust warnings.
+
+To enable private test-only HTTPS, set `CADDY_TLS_DIRECTIVE=tls internal` in `.env` and restart the stack. To return to public HTTPS later, clear that variable again.
 
 ### Temporary testing options
 
