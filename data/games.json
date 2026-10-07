@@ -1,0 +1,62 @@
+[
+  {
+    "id": "crown-of-ember",
+    "slug": "crown-of-ember",
+    "name": "Crown of Ember",
+    "shortDescription": "A tense kingdom-building duel for 2–4 players.",
+    "longDescription": "Lead rival houses through a burning frontier, balance diplomacy and resource control, and win the crown through strategy rather than luck.",
+    "longDescriptionMarkdown": "# Crown of Ember\n\nLead rival houses through a burning frontier, balance diplomacy and resource control, and win the crown through strategy rather than luck.\n\n## What makes it special\n\n- Strategic planning across each round\n- Social tension between rival houses\n- Strong replay value with evolving board states\n\n> Every turn feels like a critical moment in an unfolding dynasty.",
+    "playerCount": "2–4 Players",
+    "ageRange": "12+",
+    "gameDuration": "45–75 min",
+    "gameType": "Strategy / Fantasy",
+    "releaseStatus": "In Design",
+    "heroImage": "/images/games/crown-of-ember/hero.svg",
+    "galleryImages": [
+      "/images/games/crown-of-ember/hero.svg",
+      "/images/games/harbor-of-whispers/hero.svg",
+      "/images/games/iron-throne-keepers/hero.svg"
+    ],
+    "buyLink": "https://example.com/products/crown-of-ember"
+  },
+  {
+    "id": "harbor-of-whispers",
+    "slug": "harbor-of-whispers",
+    "name": "Harbor of Whispers",
+    "shortDescription": "A narrative puzzle game about rumor, risk, and trade.",
+    "longDescription": "Guide a coastal port through hidden agendas, shifting tides, and carefully timed negotiations in a richly layered social strategy experience.",
+    "longDescriptionMarkdown": "# Harbor of Whispers\n\nGuide a coastal port through hidden agendas, shifting tides, and carefully timed negotiations in a richly layered social strategy experience.\n\n## Key mechanics\n\n- Read the table before acting\n- Manage cargo and rumor flow\n- Timing is everything under pressure\n\n**Players** must read every whisper before it turns into a catastrophe.",
+    "playerCount": "2–5 Players",
+    "ageRange": "10+",
+    "gameDuration": "30–60 min",
+    "gameType": "Strategy / Narrative",
+    "releaseStatus": "Announced",
+    "heroImage": "/images/games/harbor-of-whispers/hero.svg",
+    "galleryImages": [
+      "/images/games/harbor-of-whispers/hero.svg",
+      "/images/games/crown-of-ember/hero.svg",
+      "/images/games/iron-throne-keepers/hero.svg"
+    ],
+    "buyLink": "https://example.com/products/harbor-of-whispers"
+  },
+  {
+    "id": "iron-throne-keepers",
+    "slug": "iron-throne-keepers",
+    "name": "Iron Throne Keepers",
+    "shortDescription": "A tactical, competitive campaign for tabletop fans.",
+    "longDescription": "Assemble your fortress, outmaneuver rival warbands, and protect your seat of power in a highly replayable tactical contest.",
+    "longDescriptionMarkdown": "# Iron Throne Keepers\n\nAssemble your fortress, outmaneuver rival warbands, and protect your seat of power in a highly replayable tactical contest.\n\n## Design goals\n\n- Tactical combat with layered decisions\n- Dynamic objectives across repeated plays\n- Strong, competitive table control\n\n> Deliberate planning wins more often than a reckless push.",
+    "playerCount": "2–6 Players",
+    "ageRange": "14+",
+    "gameDuration": "60–90 min",
+    "gameType": "Tactical / Conflict",
+    "releaseStatus": "Prototype",
+    "heroImage": "/images/games/iron-throne-keepers/hero.svg",
+    "galleryImages": [
+      "/images/games/iron-throne-keepers/hero.svg",
+      "/images/games/crown-of-ember/hero.svg",
+      "/images/games/harbor-of-whispers/hero.svg"
+    ],
+    "buyLink": "https://example.com/products/iron-throne-keepers"
+  }
+]

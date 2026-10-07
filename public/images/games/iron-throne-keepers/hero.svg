@@ -1,0 +1,6 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="700" fill="#D7C0A8"/>
+  <rect x="120" y="200" width="960" height="260" rx="30" fill="#2F2A2A" opacity="0.85"/>
+  <path d="M270 420L420 250L520 350L700 210L1040 420H270Z" fill="#C084FC" opacity="0.75"/>
+  <text x="160" y="540" fill="#1F2937" font-family="Arial, sans-serif" font-size="60" font-weight="700">Iron Throne Keepers</text>
+</svg>

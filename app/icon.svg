@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Goose Game Studio icon">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#22d3ee" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="18" fill="#020817" />
+  <path d="M18 38c0-10 7-18 17-18s17 8 17 18v2H18v-2zm7-5c0-5 4-8 10-8s10 3 10 8v2H25v-2zm4 11h12v4H29v-4z" fill="url(#g)"/>
+  <circle cx="26" cy="25" r="2.5" fill="#f8fafc"/>
+  <circle cx="38" cy="25" r="2.5" fill="#f8fafc"/>
+</svg>
