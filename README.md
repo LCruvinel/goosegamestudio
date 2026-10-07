@@ -132,6 +132,16 @@ sudo docker compose down
 HTTPS is handled by Caddy automatically when `SITE_DOMAIN` points to this server and ports `80` and `443` are reachable from the internet.
 If the domain is not yet pointed to the VM, certificate issuance will fail until DNS is updated.
 
+### Temporary testing options
+
+If your production domain still points to another IP, use one of these approaches while you test this VM:
+
+- create a temporary subdomain like `staging.yourdomain.com` and point only that DNS record to this server
+- use a temporary domain that you control and point it to this VM
+- for private-only testing, use Caddy's `tls internal` mode, knowing browsers will show a trust warning because the certificate is signed by Caddy's local CA
+
+In all cases, keep `SITE_DOMAIN` and `NEXT_PUBLIC_SITE_URL` aligned with the temporary hostname you are actually using.
+
 ## Scripts
 
 - `npm run dev` — start the dev server
