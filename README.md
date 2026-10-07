@@ -83,7 +83,7 @@ Set at least:
 ### 5. Build and start containers
 
 ```bash
-sudo docker compose pull
+sudo docker compose pull nginx
 sudo docker compose up -d --build
 ```
 
