@@ -7,38 +7,33 @@ type GameCardProps = {
 
 export function GameCard({ game }: GameCardProps) {
   return (
-    <article className="group overflow-hidden rounded-3xl border border-slate-800 bg-slate-900/80 shadow-lg shadow-slate-950/40 transition-transform duration-200 hover:-translate-y-1">
-      <div
-        className="h-56 bg-cover bg-center"
-        style={{ backgroundImage: `url(${game.heroImage})` }}
-      />
+    <article className="group overflow-hidden rounded-[1.6rem] border border-[#2e4738] bg-[#0c1f1a] text-[#edf3ed] shadow-[0_18px_42px_rgba(10,19,17,0.25)] transition-transform duration-200 hover:-translate-y-1">
+      <div className="relative h-64 overflow-hidden border-b border-[#2e4738] bg-cover bg-center" style={{ backgroundImage: `url(${game.heroImage})` }}>
+        <div className="absolute inset-0 bg-gradient-to-t from-[#0c1f1a] via-[#0c1f1a]/10 to-transparent" />
+        <div className="absolute left-4 top-4 rounded-full border border-[#d9b971]/40 bg-[#0b1a17]/70 px-2.5 py-1 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#f0d89c]">
+          {game.releaseStatus}
+        </div>
+      </div>
 
       <div className="p-6">
         <div className="flex items-center justify-between gap-3">
-          <p className="text-xs uppercase tracking-[0.2em] text-amber-300">{game.gameType}</p>
-          <span className="rounded-full border border-slate-700 px-2 py-1 text-[10px] uppercase tracking-[0.2em] text-slate-300">
-            {game.releaseStatus}
-          </span>
+          <p className="text-[9px] uppercase tracking-[0.2em] text-[#d9b971]">{game.gameType}</p>
+          <span className="text-[10px] uppercase tracking-[0.12em] text-[#dfe8df]">{game.playerCount}</span>
         </div>
 
-        <h3 className="mt-4 text-2xl font-bold text-white">{game.name}</h3>
-        <p className="mt-3 text-slate-300">{game.shortDescription}</p>
+        <h3 className="mt-4 text-2xl font-black tracking-tight text-white">{game.name}</h3>
+        <p className="mt-3 text-sm leading-7 text-[#dce7df]">{game.shortDescription}</p>
 
-        <div className="mt-5 flex items-center justify-between text-sm text-slate-300">
-          <span>{game.playerCount}</span>
-          <span>{game.gameDuration}</span>
-        </div>
-
-        <div className="mt-2 flex items-center justify-between text-sm text-slate-300">
+        <div className="mt-5 flex items-center justify-between text-xs uppercase tracking-[0.12em] text-[#dfe8df]">
           <span>{game.ageRange}</span>
-          <span>{game.releaseStatus}</span>
+          <span>{game.gameDuration}</span>
         </div>
 
         <Link
           href={`/games/${game.slug}`}
-          className="mt-6 inline-flex text-sm font-semibold text-amber-300 hover:text-amber-200"
+          className="mt-6 inline-flex text-sm font-semibold text-[#f0d89c] transition hover:text-[#f8e7b9]"
         >
-          View details →
+          Read more →
         </Link>
       </div>
     </article>

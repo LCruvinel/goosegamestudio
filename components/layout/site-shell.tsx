@@ -3,7 +3,7 @@ import { SiteHeader } from "@/components/layout/site-header";
 
 export function SiteShell({ children }: { children: React.ReactNode }) {
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100">
+    <div className="min-h-screen bg-[#f4efe7] text-[#15231d]">
       <SiteHeader />
       <main>{children}</main>
       <SiteFooter />

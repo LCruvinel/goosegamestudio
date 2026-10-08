@@ -1,5 +1,12 @@
 import { z } from "zod";
 
+const urlLikeString = z.string().refine(
+  (value) => value.startsWith("/") || /^https?:\/\//.test(value),
+  {
+    message: "Must be a local path or absolute URL",
+  },
+);
+
 export const GameContentSchema = z.object({
   id: z.string().min(1),
   slug: z
@@ -14,9 +21,9 @@ export const GameContentSchema = z.object({
   ageRange: z.string().min(1),
   gameDuration: z.string().min(1),
   gameType: z.string().min(1),
-  releaseStatus: z.enum(["In Design", "Announced", "Prototype", "Published"]),
-  heroImage: z.string().startsWith("/"),
-  galleryImages: z.array(z.string().startsWith("/")).min(1),
+  releaseStatus: z.string().min(1),
+  heroImage: urlLikeString,
+  galleryImages: z.array(urlLikeString).min(1),
   buyLink: z.string().url(),
 });
 

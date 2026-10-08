@@ -1,62 +1,122 @@
 [
   {
-    "id": "crown-of-ember",
-    "slug": "crown-of-ember",
-    "name": "Crown of Ember",
-    "shortDescription": "A tense kingdom-building duel for 2–4 players.",
-    "longDescription": "Lead rival houses through a burning frontier, balance diplomacy and resource control, and win the crown through strategy rather than luck.",
-    "longDescriptionMarkdown": "# Crown of Ember\n\nLead rival houses through a burning frontier, balance diplomacy and resource control, and win the crown through strategy rather than luck.\n\n## What makes it special\n\n- Strategic planning across each round\n- Social tension between rival houses\n- Strong replay value with evolving board states\n\n> Every turn feels like a critical moment in an unfolding dynasty.",
+    "id": "plot",
+    "slug": "plot",
+    "name": "Plot",
+    "shortDescription": "The strategy and bluffing card game – available now.",
+    "longDescription": "Plot is a quick, intense duel for two players. It rewards strategic positioning, clever bluffing, and sharp reading of your opponent in a tense medieval court of secrets and hidden agendas.",
+    "longDescriptionMarkdown": "# Plot\n\nPlot is a quick, intense duel for two players. It rewards strategic positioning, clever bluffing, and sharp reading of your opponent in a tense medieval court of secrets and hidden agendas.\n\n## What makes it special\n\n- Fast rounds with big decision pressure\n- Bluffing and deduction at the heart of play\n- Repeatable, high-tension duels\n\n> Every reveal can flip the entire table.",
+    "playerCount": "2 Players",
+    "ageRange": "8+",
+    "gameDuration": "20–30 min",
+    "gameType": "Strategy / Bluffing",
+    "releaseStatus": "Available now",
+    "heroImage": "https://goosegamestudio.com/wp-content/uploads/Plot-Mock3.jpg",
+    "galleryImages": [
+      "https://goosegamestudio.com/wp-content/uploads/Plot-Mock3.jpg",
+      "https://goosegamestudio.com/wp-content/uploads/PlotLogo12-1024x1024.jpg",
+      "https://goosegamestudio.com/wp-content/uploads/plot-th.jpg"
+    ],
+    "buyLink": "https://shop.goosegamestudio.com/"
+  },
+  {
+    "id": "caravela",
+    "slug": "caravela",
+    "name": "Caravela",
+    "shortDescription": "A strategic card game about commerce and the spice trade for family and friends.",
+    "longDescription": "Caravela invites players to navigate trade routes, manage resources, and pursue success across the Age of Discovery. It blends strategic planning with a strong narrative of exploration, risk, and reward.",
+    "longDescriptionMarkdown": "# Caravela\n\nCaravela invites players to navigate trade routes, manage resources, and pursue success across the Age of Discovery. It blends strategic planning with a strong narrative of exploration, risk, and reward.\n\n## Why it stands out\n\n- Accessible rules for family play\n- Rich historical flavor and travel theme\n- Competitive table decisions with a social rhythm\n\n> The sea always changes the route.",
+    "playerCount": "2–5 Players",
+    "ageRange": "10+",
+    "gameDuration": "30–45 min",
+    "gameType": "Strategy / Family",
+    "releaseStatus": "Seasonal special",
+    "heroImage": "https://goosegamestudio.com/wp-content/uploads/CAR-Mock2.jpg",
+    "galleryImages": [
+      "https://goosegamestudio.com/wp-content/uploads/CAR-Mock2.jpg",
+      "https://goosegamestudio.com/wp-content/uploads/GGS-CaravelaLogo1.png",
+      "https://goosegamestudio.com/wp-content/uploads/LOGO-CARAVELA-1500.png"
+    ],
+    "buyLink": "https://shop.goosegamestudio.com/"
+  },
+  {
+    "id": "island-lords",
+    "slug": "island-lords",
+    "name": "Island Lords",
+    "shortDescription": "Players expand domains, manage resources, and assert dominance in a hostile world.",
+    "longDescription": "Island Lords puts players in the role of rulers of burgeoning medieval kingdoms. The challenge is not only expansion but balancing resources, alliances, and strategic pressure as rival lords push for control.",
+    "longDescriptionMarkdown": "# Island Lords\n\nIsland Lords puts players in the role of rulers of burgeoning medieval kingdoms. The challenge is not only expansion but balancing resources, alliances, and strategic pressure as rival lords push for control.\n\n## Key elements\n\n- Resource management under pressure\n- Dynamic territory expansion\n- Competitive but readable strategy\n\n> Every kingdom starts small and ends in legend.",
+    "playerCount": "2–4 Players",
+    "ageRange": "12+",
+    "gameDuration": "45–60 min",
+    "gameType": "Strategy / Kingdom building",
+    "releaseStatus": "Coming soon",
+    "heroImage": "https://goosegamestudio.com/wp-content/uploads/IslandLords-Back83L.jpg",
+    "galleryImages": [
+      "https://goosegamestudio.com/wp-content/uploads/IslandLords-Back83L.jpg",
+      "https://goosegamestudio.com/wp-content/uploads/IslandLords-Front-1024x1024.jpg",
+      "https://goosegamestudio.com/wp-content/uploads/IslandLords-Box-1024x1024.jpg"
+    ],
+    "buyLink": "https://shop.goosegamestudio.com/"
+  },
+  {
+    "id": "global-power",
+    "slug": "global-power",
+    "name": "Global Power",
+    "shortDescription": "A balancing act of negotiation, diplomacy, and leadership on a global stage.",
+    "longDescription": "Global Power combines strategy and negotiation as players work to balance internal stability with global influence. It challenges leaders to adapt, negotiate, and opportunistically shape world events to their advantage.",
+    "longDescriptionMarkdown": "# Global Power\n\nGlobal Power combines strategy and negotiation as players work to balance internal stability with global influence. It challenges leaders to adapt, negotiate, and opportunistically shape world events to their advantage.\n\n## Design goals\n\n- Diplomacy that changes every round\n- Mixed political and economic tension\n- High replay value across global scenarios\n\n> Leadership is less about power and more about timing.",
+    "playerCount": "2–5 Players",
+    "ageRange": "12+",
+    "gameDuration": "60–90 min",
+    "gameType": "Strategy / Political",
+    "releaseStatus": "In development",
+    "heroImage": "https://goosegamestudio.com/wp-content/uploads/GP-Website2.jpg",
+    "galleryImages": [
+      "https://goosegamestudio.com/wp-content/uploads/GP-Website2.jpg",
+      "https://goosegamestudio.com/wp-content/uploads/Global-Power-1.jpg",
+      "https://goosegamestudio.com/wp-content/uploads/Global-Power-2.jpg"
+    ],
+    "buyLink": "https://shop.goosegamestudio.com/"
+  },
+  {
+    "id": "baltics",
+    "slug": "baltics",
+    "name": "Baltics",
+    "shortDescription": "A tactical tabletop wargame designed for modern military strategy and geopolitics.",
+    "longDescription": "Baltics drops players into a volatile geopolitical hotspot where tactical decisions, intelligence, and tempo matter. It is built for those who enjoy layered military planning and tense strategic sequencing.",
+    "longDescriptionMarkdown": "# Baltics\n\nBaltics drops players into a volatile geopolitical hotspot where tactical decisions, intelligence, and tempo matter. It is built for those who enjoy layered military planning and tense strategic sequencing.\n\n## Core experience\n\n- Tactical command and unit management\n- Modern warfare simulation with quick readibility\n- High-stakes decision making in contested terrain\n\n> The map changes everything.",
+    "playerCount": "2 Players",
+    "ageRange": "14+",
+    "gameDuration": "60–90 min",
+    "gameType": "Wargame / Tactical",
+    "releaseStatus": "Prototype",
+    "heroImage": "https://goosegamestudio.com/wp-content/uploads/Baltics-Back622L.jpg",
+    "galleryImages": [
+      "https://goosegamestudio.com/wp-content/uploads/Baltics-Back622L.jpg",
+      "https://goosegamestudio.com/wp-content/uploads/Baltics-Baltics1L.jpg",
+      "https://goosegamestudio.com/wp-content/uploads/Baltics-Korea1L.jpg"
+    ],
+    "buyLink": "https://shop.goosegamestudio.com/"
+  },
+  {
+    "id": "jovian-rising",
+    "slug": "jovian-rising",
+    "name": "Jovian Rising",
+    "shortDescription": "Take command of fleets in a turbulent post-Earth solar system.",
+    "longDescription": "Jovian Rising turns players into fleet admirals navigating political intrigue, resource scarcity, and interstellar combat in the aftermath of Earth’s collapse. It blends tactical engagement with a strong strategic narrative arc.",
+    "longDescriptionMarkdown": "# Jovian Rising\n\nJovian Rising turns players into fleet admirals navigating political intrigue, resource scarcity, and interstellar combat in the aftermath of Earth’s collapse. It blends tactical engagement with a strong strategic narrative arc.\n\n## Players will love\n\n- Fleet command and tactical maneuvering\n- Solar-system scale diplomacy and conflict\n- Space opera atmosphere with strategic depth\n\n> The frontier is never quiet.",
     "playerCount": "2–4 Players",
     "ageRange": "12+",
     "gameDuration": "45–75 min",
-    "gameType": "Strategy / Fantasy",
-    "releaseStatus": "In Design",
-    "heroImage": "/images/games/crown-of-ember/hero.svg",
+    "gameType": "Strategy / Sci-fi",
+    "releaseStatus": "Available soon",
+    "heroImage": "https://goosegamestudio.com/wp-content/uploads/jovian.jpg",
     "galleryImages": [
-      "/images/games/crown-of-ember/hero.svg",
-      "/images/games/harbor-of-whispers/hero.svg",
-      "/images/games/iron-throne-keepers/hero.svg"
+      "https://goosegamestudio.com/wp-content/uploads/jovian.jpg",
+      "https://goosegamestudio.com/wp-content/uploads/Jovian-02.jpg",
+      "https://goosegamestudio.com/wp-content/uploads/Jovian-03.jpg"
     ],
-    "buyLink": "https://example.com/products/crown-of-ember"
-  },
-  {
-    "id": "harbor-of-whispers",
-    "slug": "harbor-of-whispers",
-    "name": "Harbor of Whispers",
-    "shortDescription": "A narrative puzzle game about rumor, risk, and trade.",
-    "longDescription": "Guide a coastal port through hidden agendas, shifting tides, and carefully timed negotiations in a richly layered social strategy experience.",
-    "longDescriptionMarkdown": "# Harbor of Whispers\n\nGuide a coastal port through hidden agendas, shifting tides, and carefully timed negotiations in a richly layered social strategy experience.\n\n## Key mechanics\n\n- Read the table before acting\n- Manage cargo and rumor flow\n- Timing is everything under pressure\n\n**Players** must read every whisper before it turns into a catastrophe.",
-    "playerCount": "2–5 Players",
-    "ageRange": "10+",
-    "gameDuration": "30–60 min",
-    "gameType": "Strategy / Narrative",
-    "releaseStatus": "Announced",
-    "heroImage": "/images/games/harbor-of-whispers/hero.svg",
-    "galleryImages": [
-      "/images/games/harbor-of-whispers/hero.svg",
-      "/images/games/crown-of-ember/hero.svg",
-      "/images/games/iron-throne-keepers/hero.svg"
-    ],
-    "buyLink": "https://example.com/products/harbor-of-whispers"
-  },
-  {
-    "id": "iron-throne-keepers",
-    "slug": "iron-throne-keepers",
-    "name": "Iron Throne Keepers",
-    "shortDescription": "A tactical, competitive campaign for tabletop fans.",
-    "longDescription": "Assemble your fortress, outmaneuver rival warbands, and protect your seat of power in a highly replayable tactical contest.",
-    "longDescriptionMarkdown": "# Iron Throne Keepers\n\nAssemble your fortress, outmaneuver rival warbands, and protect your seat of power in a highly replayable tactical contest.\n\n## Design goals\n\n- Tactical combat with layered decisions\n- Dynamic objectives across repeated plays\n- Strong, competitive table control\n\n> Deliberate planning wins more often than a reckless push.",
-    "playerCount": "2–6 Players",
-    "ageRange": "14+",
-    "gameDuration": "60–90 min",
-    "gameType": "Tactical / Conflict",
-    "releaseStatus": "Prototype",
-    "heroImage": "/images/games/iron-throne-keepers/hero.svg",
-    "galleryImages": [
-      "/images/games/iron-throne-keepers/hero.svg",
-      "/images/games/crown-of-ember/hero.svg",
-      "/images/games/harbor-of-whispers/hero.svg"
-    ],
-    "buyLink": "https://example.com/products/iron-throne-keepers"
+    "buyLink": "https://shop.goosegamestudio.com/"
   }
 ]

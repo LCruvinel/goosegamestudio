@@ -2,18 +2,23 @@ import Link from "next/link";
 
 export function SiteFooter() {
   return (
-    <footer className="border-t border-slate-800 bg-slate-950">
+    <footer className="border-t border-[#294336] bg-[#071912] text-[#edf0eb]">
       <div className="mx-auto grid max-w-7xl gap-10 px-6 py-12 sm:px-8 lg:grid-cols-3 lg:px-12">
         <div>
-          <div className="text-xl font-black text-white">Goose Game Studio</div>
-          <p className="mt-4 max-w-xs text-sm text-slate-400">
-            Tabletop games built for memorable evenings, smart strategy, and shared storytelling.
+          <div className="flex items-center gap-3">
+            <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-[#d9b971] bg-[#103129] text-sm font-black text-[#f5e3b0]">
+              GGS
+            </div>
+            <div className="text-xl font-black tracking-tight text-white">Goose Game Studio</div>
+          </div>
+          <p className="mt-4 max-w-xs text-sm leading-7 text-[#c9d0c9]">
+            Strategy games, bluffing duels, and ambitious tabletop experiences crafted to bring people together.
           </p>
         </div>
 
         <div>
-          <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-400">Explore</h3>
-          <ul className="mt-4 space-y-3 text-sm text-slate-300">
+          <h3 className="text-[11px] font-semibold uppercase tracking-[0.22em] text-[#d9b971]">Explore</h3>
+          <ul className="mt-4 space-y-3 text-sm text-[#dfe8df]">
             <li>
               <Link href="/about" className="hover:text-white">
                 About
@@ -33,16 +38,16 @@ export function SiteFooter() {
         </div>
 
         <div>
-          <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-400">Connect</h3>
-          <ul className="mt-4 space-y-3 text-sm text-slate-300">
+          <h3 className="text-[11px] font-semibold uppercase tracking-[0.22em] text-[#d9b971]">Connect</h3>
+          <ul className="mt-4 space-y-3 text-sm text-[#dfe8df]">
             <li>
-              <a href="https://x.com" target="_blank" rel="noreferrer" className="hover:text-white">
+              <a href="https://x.com/goosegamestudio" target="_blank" rel="noreferrer" className="hover:text-white">
                 X / Twitter
               </a>
             </li>
             <li>
-              <a href="https://youtube.com" target="_blank" rel="noreferrer" className="hover:text-white">
-                YouTube
+              <a href="https://shop.goosegamestudio.com/" target="_blank" rel="noreferrer" className="hover:text-white">
+                Shop
               </a>
             </li>
             <li>
@@ -53,7 +58,7 @@ export function SiteFooter() {
           </ul>
         </div>
       </div>
-      <div className="border-t border-slate-800 py-4 text-center text-xs text-slate-500">
+      <div className="border-t border-[#1a3129] py-4 text-center text-xs text-[#9ba69d]">
         © 2026 Goose Game Studio. All rights reserved.
       </div>
     </footer>

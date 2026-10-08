@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { HomeSlideshow } from "@/components/homepage/home-slideshow";
 import { SiteShell } from "@/components/layout/site-shell";
 import { GameCard } from "@/components/marketing/game-card";
 import { SectionHeading } from "@/components/marketing/section-heading";
@@ -8,141 +9,146 @@ import { games } from "@/lib/games";
 import { getCanonicalUrl, getWebsiteSchema } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Premium Board Games for Memorable Nights",
+  title: "Goose Game Studio | Strategy Tabletop Games",
   description:
-    "Goose Game Studio designs premium tabletop games, strategy experiences, and modern social play sessions for memorable evenings.",
+    "Goose Game Studio creates strategic, narrative, and social tabletop games designed for memorable evenings and bold table moments.",
   alternates: {
     canonical: getCanonicalUrl("/"),
   },
   openGraph: {
-    title: "Premium Board Games for Memorable Nights",
+    title: "Goose Game Studio | Strategy Tabletop Games",
     description:
-      "Goose Game Studio designs premium tabletop games, strategy experiences, and modern social play sessions for memorable evenings.",
+      "Goose Game Studio creates strategic, narrative, and social tabletop games designed for memorable evenings and bold table moments.",
     url: getCanonicalUrl("/"),
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Premium Board Games for Memorable Nights",
+    title: "Goose Game Studio | Strategy Tabletop Games",
     description:
-      "Goose Game Studio designs premium tabletop games, strategy experiences, and modern social play sessions for memorable evenings.",
+      "Goose Game Studio creates strategic, narrative, and social tabletop games designed for memorable evenings and bold table moments.",
   },
 };
 
 const studioStats = [
-  { value: "12+", label: "Years of tabletop design" },
-  { value: "3", label: "Core releases in production" },
-  { value: "4.9/5", label: "Prototype review score" },
-  { value: "100%", label: "Crafted for social play" },
+  { value: "6", label: "creative game concepts" },
+  { value: "2–6", label: "players at the table" },
+  { value: "20–90", label: "minutes of play" },
+  { value: "100%", label: "crafted for shared moments" },
 ];
 
 const philosophy = [
   {
-    title: "Elegant systems",
-    text: "Rules that are easy to learn, rich in strategy, and beautifully paced from opening move to final turn.",
+    title: "Strategy with heart",
+    text: "Every design starts with a strong decision space and a rewarding table rhythm that keeps players engaged.",
   },
   {
-    title: "Premium components",
-    text: "From tactile tiles to custom art direction, every physical detail elevates the table experience.",
+    title: "A story in every round",
+    text: "Whether it is trade, diplomacy, or conflict, our games turn every turn into a memorable chapter.",
   },
   {
-    title: "Replayable stories",
-    text: "We build games that reward different player styles and spark new conversations on every session.",
+    title: "Accessible but rich",
+    text: "We build games that are easy to learn, difficult to master, and full of replay value across sessions.",
   },
   {
-    title: "Warm social energy",
-    text: "Our games are designed for laughter, trust, rivalry, and the kind of moments everyone remembers.",
+    title: "Made to share",
+    text: "From family nights to strategic duels, the best games are the ones that make people want another round.",
   },
 ];
 
-const heroHighlights = ["Award-caliber design", "Premium print production", "Global distribution ready"];
+const heroItems = [
+  {
+    name: "Plot",
+    subtitle: "The strategy and bluffing card game",
+    description: "Discover who among you is the true master of secrets.",
+    image: "https://goosegamestudio.com/wp-content/uploads/Plot-Mock3.jpg",
+    link: "https://shop.goosegamestudio.com/",
+  },
+  {
+    name: "Caravela",
+    subtitle: "Join the Age of Discovery",
+    description: "A strategic card game about commerce and the spice trade for family and friends.",
+    image: "https://goosegamestudio.com/wp-content/uploads/CAR-Mock2.jpg",
+    link: "https://shop.goosegamestudio.com/",
+  },
+  {
+    name: "Jovian Rising",
+    subtitle: "Command the galaxy",
+    description: "Take on the role of fleet admirals in a post-Earth solar system.",
+    image: "https://goosegamestudio.com/wp-content/uploads/jovian.jpg",
+    link: "https://shop.goosegamestudio.com/",
+  },
+];
 
 export default function HomePage() {
   return (
     <SiteShell>
       <JsonLd data={getWebsiteSchema()} />
-      <section className="relative overflow-hidden bg-[radial-gradient(circle_at_top,_rgba(244,188,79,0.19),transparent_35%),linear-gradient(135deg,#f8f3ea_0%,#f4ede3_30%,#efe4d3_100%)] text-slate-900">
-        <div className="mx-auto grid max-w-7xl items-center gap-12 px-6 pb-20 pt-16 sm:px-8 lg:grid-cols-[1.15fr_0.85fr] lg:px-12 lg:pb-28 lg:pt-24">
-          <div>
-            <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-amber-500/40 bg-white/70 px-3 py-2 text-[11px] font-semibold uppercase tracking-[0.22em] text-amber-900 shadow-sm backdrop-blur-sm">
-              <span className="h-2 w-2 rounded-full bg-amber-500" />
-              Premium tabletop publishing
-            </div>
+      <HomeSlideshow />
 
-            <h1 className="max-w-xl text-5xl font-black tracking-[-0.06em] text-slate-900 sm:text-6xl lg:text-7xl">
-              Modern games for memorable evenings.
-            </h1>
+      <section className="relative overflow-hidden bg-[#081a15] text-[#f5efe5]">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(198,162,87,0.18),transparent_35%)]" />
+        <div className="relative mx-auto max-w-7xl px-6 pb-16 pt-10 sm:px-8 lg:px-12">
+          <div className="overflow-hidden rounded-[2rem] border border-[#2f4a3d] bg-[#10271f] shadow-[0_28px_80px_rgba(0,0,0,0.35)]">
+            <div className="grid items-center gap-10 px-6 py-8 sm:px-8 lg:grid-cols-[0.92fr_1.08fr] lg:px-10 lg:py-10">
+              <div>
+                <p className="mb-5 text-[11px] font-semibold uppercase tracking-[0.28em] text-[#d9b971]">
+                  Available now
+                </p>
+                <h1 className="max-w-xl text-4xl font-black tracking-[-0.06em] text-white sm:text-5xl lg:text-6xl">
+                  Strategy games that turn a table into a story.
+                </h1>
+                <p className="mt-5 max-w-xl text-base leading-8 text-[#e4dbc7] sm:text-lg">
+                  Goose Game Studio crafts bold, memorable tabletop experiences built around strategy,
+                  bluffing, diplomacy, and the kind of shared moments people talk about long after the game ends.
+                </p>
 
-            <p className="mt-6 max-w-xl text-lg leading-8 text-slate-700">
-              Goose Game Studio creates elevated board games that blend strategy, craftsmanship, and
-              storytelling—built to feel beautiful on the table and unforgettable in play.
-            </p>
-
-            <div className="mt-8 flex flex-col gap-4 sm:flex-row">
-              <ButtonLink href="https://example.myshopify.com" target="_blank" rel="noreferrer">
-                Shop the collection
-              </ButtonLink>
-              <ButtonLink href="/games" variant="secondary">
-                Explore our titles
-              </ButtonLink>
-            </div>
-
-            <div className="mt-8 flex flex-wrap gap-3">
-              {heroHighlights.map((item) => (
-                <span
-                  key={item}
-                  className="rounded-full border border-slate-300 bg-white/80 px-3 py-2 text-sm text-slate-700 shadow-sm"
-                >
-                  {item}
-                </span>
-              ))}
-            </div>
-          </div>
-
-          <div className="relative">
-            <div className="absolute inset-0 rounded-[2.5rem] bg-gradient-to-br from-amber-200/70 via-orange-200/60 to-rose-200/70 blur-3xl" />
-            <div className="relative overflow-hidden rounded-[2.5rem] border border-slate-200 bg-white/80 p-5 shadow-[0_30px_80px_rgba(68,44,23,0.14)] backdrop-blur-sm">
-              <div className="mb-4 flex items-center justify-between rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3">
-                <div>
-                  <p className="text-[10px] font-semibold uppercase tracking-[0.24em] text-slate-500">
-                    Featured release
-                  </p>
-                  <h2 className="mt-2 text-2xl font-black text-slate-900">Crown of Ember</h2>
+                <div className="mt-7 flex flex-col gap-4 sm:flex-row">
+                  <ButtonLink href="https://shop.goosegamestudio.com/" target="_blank" rel="noreferrer">
+                    Buy now
+                  </ButtonLink>
+                  <ButtonLink href="/games" variant="secondary">
+                    Our games
+                  </ButtonLink>
                 </div>
-                <span className="rounded-full border border-emerald-600/20 bg-emerald-50 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.2em] text-emerald-700">
-                  New
-                </span>
+
+                <div className="mt-8 flex flex-wrap gap-3 text-xs uppercase tracking-[0.16em] text-[#dfe8df]">
+                  {heroItems.map((item) => (
+                    <span key={item.name} className="rounded-full border border-[#315440] bg-[#102e25] px-3 py-2">
+                      {item.name}
+                    </span>
+                  ))}
+                </div>
               </div>
 
-              <div className="h-[420px] rounded-[2rem] bg-[linear-gradient(135deg,#f6d76d_0%,#ef8c4a_32%,#7a2e3b_100%)] shadow-inner">
-                <div className="flex h-full items-end p-6">
-                  <div className="w-full rounded-[1.5rem] border border-white/30 bg-slate-900/20 p-4 text-white backdrop-blur-sm">
-                    <div className="flex items-center justify-between text-xs uppercase tracking-[0.2em] text-amber-100/90">
-                      <span>2–4 Players</span>
-                      <span>45–75 min</span>
+              <div className="relative">
+                <div className="absolute inset-0 -z-10 rounded-[2rem] bg-[radial-gradient(circle,_rgba(212,178,101,0.32),transparent_55%)] blur-3xl" />
+                <div
+                  className="relative h-[440px] overflow-hidden rounded-[2rem] border border-[#2e4738] bg-cover bg-center shadow-[0_24px_60px_rgba(0,0,0,0.28)]"
+                  style={{ backgroundImage: `url(${heroItems[0].image})` }}
+                >
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#081a15] via-[#081a15]/30 to-transparent" />
+                  <div className="absolute inset-x-0 bottom-0 p-6 sm:p-8">
+                    <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-[#d9b971]/40 bg-[#081a15]/60 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.24em] text-[#f0d89c]">
+                      Featured release
                     </div>
-                    <div className="mt-4 flex items-center justify-between">
-                      <div>
-                        <p className="text-3xl font-black tracking-tight">A kingdom in flux</p>
-                        <p className="mt-2 text-sm text-amber-50/80">Strategy • Fantasy • Prestige</p>
-                      </div>
+                    <h2 className="text-3xl font-black tracking-tight text-white sm:text-4xl">
+                      {heroItems[0].name}
+                    </h2>
+                    <p className="mt-2 max-w-md text-sm text-[#eee2c5] sm:text-base">
+                      {heroItems[0].description}
+                    </p>
+                    <div className="mt-5 flex items-center gap-3">
+                      <a
+                        href={heroItems[0].link}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="inline-flex items-center rounded-full bg-[#d9b971] px-4 py-2 text-sm font-semibold text-[#0b1b17] transition hover:bg-[#e5c77f]"
+                      >
+                        Buy now
+                      </a>
                     </div>
                   </div>
-                </div>
-              </div>
-
-              <div className="mt-5 grid grid-cols-3 gap-3 text-center text-sm text-slate-700">
-                <div className="rounded-2xl border border-slate-200 bg-slate-50 p-3">
-                  <div className="text-xl font-black text-slate-900">2–4</div>
-                  <div className="mt-1 text-xs uppercase tracking-[0.15em] text-slate-500">Players</div>
-                </div>
-                <div className="rounded-2xl border border-slate-200 bg-slate-50 p-3">
-                  <div className="text-xl font-black text-slate-900">45–75</div>
-                  <div className="mt-1 text-xs uppercase tracking-[0.15em] text-slate-500">Minutes</div>
-                </div>
-                <div className="rounded-2xl border border-slate-200 bg-slate-50 p-3">
-                  <div className="text-xl font-black text-slate-900">12+</div>
-                  <div className="mt-1 text-xs uppercase tracking-[0.15em] text-slate-500">Age</div>
                 </div>
               </div>
             </div>
@@ -150,12 +156,12 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="border-y border-amber-100 bg-[#f1e6d6]">
+      <section className="border-y border-[#e6d7b6] bg-[#efe3c8]">
         <div className="mx-auto grid max-w-7xl gap-8 px-6 py-12 sm:grid-cols-2 lg:grid-cols-4 sm:px-8 lg:px-12">
           {studioStats.map((stat) => (
-            <div key={stat.label} className="rounded-[1.5rem] border border-slate-200 bg-[#fffaf4] p-6 text-center shadow-sm">
-              <div className="text-4xl font-black tracking-tight text-slate-900">{stat.value}</div>
-              <div className="mt-3 text-sm text-slate-600">{stat.label}</div>
+            <div key={stat.label} className="rounded-[1.5rem] border border-[#d8c29a] bg-[#f6f1e6] p-6 text-center shadow-sm">
+              <div className="text-4xl font-black tracking-tight text-[#0c1f1a]">{stat.value}</div>
+              <div className="mt-3 text-sm text-[#3f4b46]">{stat.label}</div>
             </div>
           ))}
         </div>
@@ -163,43 +169,45 @@ export default function HomePage() {
 
       <section className="mx-auto max-w-7xl px-6 py-20 sm:px-8 lg:px-12">
         <SectionHeading
-          eyebrow="Featured games"
-          title="A curated portfolio of premium play experiences."
-          description="Every title is designed for bold table presence, rich strategy, and deeply social play sessions."
+          eyebrow="Our games"
+          title="A catalogue shaped by strategy, story, and memorable table moments."
+          description="From bluff-heavy duels to diplomatic conflicts and tense space opera command, each design explores a different way to bring players together."
           align="center"
         />
 
-        <div className="mt-12 grid gap-8 md:grid-cols-3">
+        <div className="mt-12 grid gap-8 md:grid-cols-2 xl:grid-cols-3">
           {games.map((game) => (
             <GameCard key={game.slug} game={game} />
           ))}
         </div>
       </section>
 
-      <section className="bg-[#f6f1e7] py-20">
-        <div className="mx-auto grid max-w-7xl gap-12 px-6 lg:grid-cols-[0.9fr_1.1fr] sm:px-8 lg:px-12">
-          <div className="overflow-hidden rounded-[2.25rem] border border-slate-200 bg-white shadow-[0_25px_50px_rgba(78,58,31,0.12)]">
-            <div className="h-full min-h-[440px] bg-[linear-gradient(135deg,#b9935a_0%,#734d25_28%,#1e1a17_100%)]" />
+      <section className="bg-[#f4efe7] py-20">
+        <div className="mx-auto grid max-w-7xl gap-10 px-6 lg:grid-cols-[0.82fr_1.18fr] sm:px-8 lg:px-12">
+          <div className="overflow-hidden rounded-[2rem] border border-[#d7c6a2] bg-[#10271f] shadow-[0_22px_60px_rgba(13,29,22,0.2)]">
+            <div
+              className="h-full min-h-[440px] bg-cover bg-center"
+              style={{ backgroundImage: "url(https://goosegamestudio.com/wp-content/uploads/GGSNLogov2.png)" }}
+            />
           </div>
 
           <div className="flex flex-col justify-center">
-            <p className="text-xs font-semibold uppercase tracking-[0.26em] text-amber-700">About the studio</p>
-            <h2 className="mt-4 text-4xl font-black tracking-tight text-slate-900 sm:text-5xl">
-              We design games that feel rich, tactile, and worth revisiting.
+            <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[#9b7c2a]">Who are we</p>
+            <h2 className="mt-4 text-4xl font-black tracking-tight text-[#12231d] sm:text-5xl">
+              A small but driven studio obsessed with great tabletop ideas.
             </h2>
-            <p className="mt-5 max-w-xl text-lg leading-8 text-slate-700">
-              Goose Game Studio is a boutique publisher focused on the craft of modern tabletop design.
-              We blend elegant mechanics with premium production values so every session feels intentional,
-              immersive, and social from the first round to the last.
+            <p className="mt-5 max-w-xl text-lg leading-8 text-[#3d4f46]">
+              Goose Game Studio is a creative team dedicated to making games that are imaginative, memorable,
+              and built to bring people together around the table. Founded by lifelong game enthusiasts, the studio draws on a blend of design thinking, engineering, and entrepreneurial energy.
             </p>
             <div className="mt-8 grid gap-4 sm:grid-cols-2">
-              <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-                <div className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-500">Focus</div>
-                <div className="mt-3 text-xl font-bold text-slate-900">Strategy-led design</div>
+              <div className="rounded-2xl border border-[#d8c29a] bg-[#fffaf2] p-5 shadow-sm">
+                <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-[#6a716b]">Our approach</p>
+                <p className="mt-3 text-xl font-bold text-[#12231d]">Creative and curious</p>
               </div>
-              <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-                <div className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-500">Approach</div>
-                <div className="mt-3 text-xl font-bold text-slate-900">Player-first experiences</div>
+              <div className="rounded-2xl border border-[#d8c29a] bg-[#fffaf2] p-5 shadow-sm">
+                <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-[#6a716b]">Our focus</p>
+                <p className="mt-3 text-xl font-bold text-[#12231d]">Designs with narrative weight</p>
               </div>
             </div>
           </div>
@@ -208,73 +216,37 @@ export default function HomePage() {
 
       <section className="mx-auto max-w-7xl px-6 py-20 sm:px-8 lg:px-12">
         <div className="mb-12 text-center">
-          <p className="text-xs font-semibold uppercase tracking-[0.28em] text-amber-700">Design philosophy</p>
-          <h2 className="mt-4 text-4xl font-black tracking-tight text-slate-900 sm:text-5xl">
-            Built for beautiful play and lasting memories.
+          <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[#9b7c2a]">Our approach</p>
+          <h2 className="mt-4 text-4xl font-black tracking-tight text-[#12231d] sm:text-5xl">
+            We build games from the spark of an idea and let the design story grow from there.
           </h2>
         </div>
 
         <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
           {philosophy.map((item) => (
-            <div key={item.title} className="rounded-[1.75rem] border border-slate-200 bg-white p-6 shadow-[0_12px_30px_rgba(74,58,40,0.08)]">
-              <div className="mb-4 h-12 w-12 rounded-2xl bg-[linear-gradient(135deg,#f5d777,#e69a4e)]" />
-              <h3 className="text-xl font-bold text-slate-900">{item.title}</h3>
-              <p className="mt-3 text-base leading-7 text-slate-600">{item.text}</p>
+            <div key={item.title} className="rounded-[1.75rem] border border-[#d7c6a2] bg-[#fffaf1] p-6 shadow-[0_12px_28px_rgba(16,39,31,0.08)]">
+              <div className="mb-4 h-12 w-12 rounded-2xl bg-[linear-gradient(135deg,#d9b971,#a77c3a)]" />
+              <h3 className="text-xl font-bold text-[#12231d]">{item.title}</h3>
+              <p className="mt-3 text-base leading-7 text-[#45605a]">{item.text}</p>
             </div>
           ))}
         </div>
       </section>
 
       <section className="mx-auto max-w-6xl px-6 pb-20 sm:px-8 lg:px-12">
-        <div className="rounded-[2.25rem] border border-amber-200 bg-[linear-gradient(135deg,#f7efe5_0%,#efe1cb_50%,#f8f4ef_100%)] p-8 text-center shadow-[0_22px_50px_rgba(92,66,35,0.12)] sm:p-12">
-          <p className="text-xs font-semibold uppercase tracking-[0.28em] text-amber-700">Storefront</p>
-          <h2 className="mt-4 text-4xl font-black tracking-tight text-slate-900 sm:text-5xl">
-            Discover the collection.
+        <div className="rounded-[2.25rem] border border-[#d5bf91] bg-[linear-gradient(135deg,#f7f0df_0%,#efe3c6_50%,#f7f5f1_100%)] p-8 text-center shadow-[0_20px_48px_rgba(11,20,18,0.12)] sm:p-12">
+          <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[#906e1c]">We are always open</p>
+          <h2 className="mt-4 text-4xl font-black tracking-tight text-[#12231d] sm:text-5xl">
+            If the idea makes us ask, “would I play this?” then we are ready to explore it.
           </h2>
-          <p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-slate-700">
-            Shop premium tabletop editions, prototype drops, and upcoming releases from our curated
-            publishing line.
+          <p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-[#425b54]">
+            We are always open to collaborating and listening to new ideas, building on creative sparks, and translating them into game experiences that surprise and delight players.
           </p>
           <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
-            <ButtonLink href="https://example.myshopify.com" target="_blank" rel="noreferrer">
-              Visit Shopify store
-            </ButtonLink>
+            <ButtonLink href="/contact">Contact us</ButtonLink>
             <ButtonLink href="/games" variant="secondary">
-              View all games
+              Explore catalog
             </ButtonLink>
-          </div>
-        </div>
-      </section>
-
-      <section id="contact" className="bg-[#201b18] py-20 text-white">
-        <div className="mx-auto grid max-w-7xl gap-10 px-6 sm:px-8 lg:grid-cols-[1fr_0.9fr] lg:px-12">
-          <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.28em] text-amber-300">Contact</p>
-            <h2 className="mt-4 text-4xl font-black tracking-tight text-white sm:text-5xl">
-              Let’s build the next standout table favorite.
-            </h2>
-            <p className="mt-5 max-w-xl text-lg leading-8 text-slate-300">
-              For partnerships, distributor enquiries, press requests, or retail conversations, we would love to hear from you.
-            </p>
-          </div>
-
-          <div className="rounded-[2rem] border border-white/10 bg-white/5 p-8 backdrop-blur-sm">
-            <div className="space-y-6 text-base text-slate-200">
-              <div>
-                <div className="text-xs font-semibold uppercase tracking-[0.2em] text-amber-300">Email</div>
-                <a href="mailto:hello@goosegamestudio.com" className="mt-2 inline-block text-xl font-semibold text-white hover:text-amber-200">
-                  hello@goosegamestudio.com
-                </a>
-              </div>
-              <div>
-                <div className="text-xs font-semibold uppercase tracking-[0.2em] text-amber-300">Press</div>
-                <p className="mt-2 text-lg text-slate-200">media@goosegamestudio.com</p>
-              </div>
-              <div>
-                <div className="text-xs font-semibold uppercase tracking-[0.2em] text-amber-300">Studio</div>
-                <p className="mt-2 text-lg text-slate-200">North Shore, Portland, OR</p>
-              </div>
-            </div>
           </div>
         </div>
       </section>

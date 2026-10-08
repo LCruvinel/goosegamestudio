@@ -8,15 +8,16 @@ export const siteConfig = {
   name: siteName,
   url: siteUrl,
   description:
-    "Goose Game Studio creates elegant, replayable board games for modern tabletop enthusiasts.",
+    "Goose Game Studio creates strategic, story-rich tabletop games that bring people together for memorable nights.",
   email: siteEmail,
   logo: `${siteUrl}/icon.svg`,
   ogImage:
-    "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1200&q=80",
+    "https://goosegamestudio.com/wp-content/uploads/Plot-Mock3.jpg",
   social: {
     x: "https://x.com/goosegamestudio",
     youtube: "https://youtube.com/@goosegamestudio",
     discord: "https://discord.com/invite/goosegamestudio",
+    shop: "https://shop.goosegamestudio.com/",
   },
 };
 
@@ -25,4 +26,5 @@ export const navItems = [
   { href: "/games", label: "Games" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
+  { href: "https://shop.goosegamestudio.com/", label: "Shop" },
 ];

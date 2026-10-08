@@ -1,0 +1,655 @@
+{
+  "postsCount": 0,
+  "pagesCount": 12,
+  "categoriesCount": 0,
+  "downloadedImages": [
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/GGSNLogov2.png",
+      "local": "/images/GGSNLogov2.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/pt_PT_ao90.png",
+      "local": "/images/pt_PT_ao90.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/en_US.png",
+      "local": "/images/en_US.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/pt_PT_ao90.png",
+      "local": "/images/pt_PT_ao90.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/en_US.png",
+      "local": "/images/en_US.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/Plot-Mock3.jpg",
+      "local": "/images/Plot-Mock3.jpg"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/CAR-Mock2.jpg",
+      "local": "/images/CAR-Mock2.jpg"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/IslandLords-Back83L.jpg",
+      "local": "/images/IslandLords-Back83L.jpg"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/GP-Website2.jpg",
+      "local": "/images/GP-Website2.jpg"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/Baltics-Back622L.jpg",
+      "local": "/images/Baltics-Back622L.jpg"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/jovian.jpg",
+      "local": "/images/jovian.jpg"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/logo-goose-footer.png",
+      "local": "/images/logo-goose-footer.png"
+    },
+    {
+      "original": "https://pixel.wp.com/g.gif?v=ext&blog=250037654&post=602&tz=0&srv=goosegamestudio.com&j=1%3A15.2.1&host=goosegamestudio.com&ref=&fcp=0&rand=0.22667045650790518",
+      "local": "/images/g.gif"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/GGSNLogov2.png",
+      "local": "/images/GGSNLogov2.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/en_US.png",
+      "local": "/images/en_US.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/pt_PT_ao90.png",
+      "local": "/images/pt_PT_ao90.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/en_US.png",
+      "local": "/images/en_US.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/pt_PT_ao90.png",
+      "local": "/images/pt_PT_ao90.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/logo-goose-footer.png",
+      "local": "/images/logo-goose-footer.png"
+    },
+    {
+      "original": "https://pixel.wp.com/g.gif?v=ext&blog=250037654&post=987516628&tz=0&srv=goosegamestudio.com&j=1%3A15.2.1&host=goosegamestudio.com&ref=&fcp=0&rand=0.024198027224497265",
+      "local": "/images/g.gif"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/GGSNLogov2.png",
+      "local": "/images/GGSNLogov2.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/en_US.png",
+      "local": "/images/en_US.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/pt_PT_ao90.png",
+      "local": "/images/pt_PT_ao90.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/en_US.png",
+      "local": "/images/en_US.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/pt_PT_ao90.png",
+      "local": "/images/pt_PT_ao90.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/plot1.png",
+      "local": "/images/plot1.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/logo-goose-footer.png",
+      "local": "/images/logo-goose-footer.png"
+    },
+    {
+      "original": "https://pixel.wp.com/g.gif?v=ext&blog=250037654&post=987499123&tz=0&srv=goosegamestudio.com&j=1%3A15.2.1&host=goosegamestudio.com&ref=&fcp=0&rand=0.4576010587835677",
+      "local": "/images/g.gif"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/GGSNLogov2.png",
+      "local": "/images/GGSNLogov2.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/en_US.png",
+      "local": "/images/en_US.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/pt_PT_ao90.png",
+      "local": "/images/pt_PT_ao90.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/en_US.png",
+      "local": "/images/en_US.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/pt_PT_ao90.png",
+      "local": "/images/pt_PT_ao90.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/GGS-CaravelaLogo1.png",
+      "local": "/images/GGS-CaravelaLogo1.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/GGS-CaravelaLogo1.png",
+      "local": "/images/GGS-CaravelaLogo1.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/GGS-Card1.png",
+      "local": "/images/GGS-Card1.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/GGS-Card2.png",
+      "local": "/images/GGS-Card2.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/logo-goose-footer.png",
+      "local": "/images/logo-goose-footer.png"
+    },
+    {
+      "original": "https://pixel.wp.com/g.gif?v=ext&blog=250037654&post=987516376&tz=0&srv=goosegamestudio.com&j=1%3A15.2.1&host=goosegamestudio.com&ref=&fcp=0&rand=0.6043491836293222",
+      "local": "/images/g.gif"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/GGSNLogov2.png",
+      "local": "/images/GGSNLogov2.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/en_US.png",
+      "local": "/images/en_US.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/pt_PT_ao90.png",
+      "local": "/images/pt_PT_ao90.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/en_US.png",
+      "local": "/images/en_US.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/pt_PT_ao90.png",
+      "local": "/images/pt_PT_ao90.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/cycle.png",
+      "local": "/images/cycle.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/g3.png",
+      "local": "/images/g3.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/g4.png",
+      "local": "/images/g4.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/g1.png",
+      "local": "/images/g1.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/g0.png",
+      "local": "/images/g0.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/g2.png",
+      "local": "/images/g2.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/g3.png",
+      "local": "/images/g3.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/g4.png",
+      "local": "/images/g4.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/g1.png",
+      "local": "/images/g1.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/g0.png",
+      "local": "/images/g0.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/g2.png",
+      "local": "/images/g2.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/g3.png",
+      "local": "/images/g3.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/substitution-board.png",
+      "local": "/images/substitution-board.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/circular.png",
+      "local": "/images/circular.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/logo-goose-footer.png",
+      "local": "/images/logo-goose-footer.png"
+    },
+    {
+      "original": "https://pixel.wp.com/g.gif?v=ext&blog=250037654&post=987505608&tz=0&srv=goosegamestudio.com&j=1%3A15.2.1&host=goosegamestudio.com&ref=&fcp=0&rand=0.7355527747350123",
+      "local": "/images/g.gif"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/GGSNLogov2.png",
+      "local": "/images/GGSNLogov2.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/en_US.png",
+      "local": "/images/en_US.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/pt_PT_ao90.png",
+      "local": "/images/pt_PT_ao90.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/en_US.png",
+      "local": "/images/en_US.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/pt_PT_ao90.png",
+      "local": "/images/pt_PT_ao90.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/GlobalPowerLogo.png",
+      "local": "/images/GlobalPowerLogo.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/GlobalPowerLogo.png",
+      "local": "/images/GlobalPowerLogo.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/GlobalPower-TECHNOCRACY-1.png",
+      "local": "/images/GlobalPower-TECHNOCRACY-1.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/new-section-1-9.png",
+      "local": "/images/new-section-1-9.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/GlobalPower-SUBVERSION.png",
+      "local": "/images/GlobalPower-SUBVERSION.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/logo-goose-footer.png",
+      "local": "/images/logo-goose-footer.png"
+    },
+    {
+      "original": "https://pixel.wp.com/g.gif?v=ext&blog=250037654&post=987515653&tz=0&srv=goosegamestudio.com&j=1%3A15.2.1&host=goosegamestudio.com&ref=&fcp=0&rand=0.6840312141837531",
+      "local": "/images/g.gif"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/GGSNLogov2.png",
+      "local": "/images/GGSNLogov2.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/en_US.png",
+      "local": "/images/en_US.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/pt_PT_ao90.png",
+      "local": "/images/pt_PT_ao90.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/en_US.png",
+      "local": "/images/en_US.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/pt_PT_ao90.png",
+      "local": "/images/pt_PT_ao90.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/1z.png",
+      "local": "/images/1z.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/6z.png",
+      "local": "/images/6z.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/IslandLords-fort.png",
+      "local": "/images/IslandLords-fort.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/IslandLords-Windmill.png",
+      "local": "/images/IslandLords-Windmill.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/logo-goose-footer.png",
+      "local": "/images/logo-goose-footer.png"
+    },
+    {
+      "original": "https://pixel.wp.com/g.gif?v=ext&blog=250037654&post=987515746&tz=0&srv=goosegamestudio.com&j=1%3A15.2.1&host=goosegamestudio.com&ref=&fcp=0&rand=0.3154708368134175",
+      "local": "/images/g.gif"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/GGSNLogov2.png",
+      "local": "/images/GGSNLogov2.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/en_US.png",
+      "local": "/images/en_US.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/pt_PT_ao90.png",
+      "local": "/images/pt_PT_ao90.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/en_US.png",
+      "local": "/images/en_US.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/pt_PT_ao90.png",
+      "local": "/images/pt_PT_ao90.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/Baltics-Baltics1L.jpg",
+      "local": "/images/Baltics-Baltics1L.jpg"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/Baltics-Baltics2L.jpg",
+      "local": "/images/Baltics-Baltics2L.jpg"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/Picture20.png",
+      "local": "/images/Picture20.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/Baltics-Korea1L.jpg",
+      "local": "/images/Baltics-Korea1L.jpg"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/Baltics-Korea2L.jpg",
+      "local": "/images/Baltics-Korea2L.jpg"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/Baltics-Up-PTF16-5.png",
+      "local": "/images/Baltics-Up-PTF16-5.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/Baltics-Up-PTF16-1.png",
+      "local": "/images/Baltics-Up-PTF16-1.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/Baltics-Up-PTF16-3.png",
+      "local": "/images/Baltics-Up-PTF16-3.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/Baltics-Up-PTF16-7.png",
+      "local": "/images/Baltics-Up-PTF16-7.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/logo-goose-footer.png",
+      "local": "/images/logo-goose-footer.png"
+    },
+    {
+      "original": "https://pixel.wp.com/g.gif?v=ext&blog=250037654&post=987515854&tz=0&srv=goosegamestudio.com&j=1%3A15.2.1&host=goosegamestudio.com&ref=&fcp=2236&rand=0.24798299047408934",
+      "local": "/images/g.gif"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/GGSNLogov2.png",
+      "local": "/images/GGSNLogov2.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/en_US.png",
+      "local": "/images/en_US.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/pt_PT_ao90.png",
+      "local": "/images/pt_PT_ao90.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/en_US.png",
+      "local": "/images/en_US.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/pt_PT_ao90.png",
+      "local": "/images/pt_PT_ao90.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/Jovian-Corvette-1.png",
+      "local": "/images/Jovian-Corvette-1.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/Jovian-Envoy-1.png",
+      "local": "/images/Jovian-Envoy-1.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/logo-goose-footer.png",
+      "local": "/images/logo-goose-footer.png"
+    },
+    {
+      "original": "https://pixel.wp.com/g.gif?v=ext&blog=250037654&post=987515838&tz=0&srv=goosegamestudio.com&j=1%3A15.2.1&host=goosegamestudio.com&ref=&fcp=0&rand=0.5818226329283576",
+      "local": "/images/g.gif"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/GGSNLogov2.png",
+      "local": "/images/GGSNLogov2.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/en_US.png",
+      "local": "/images/en_US.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/pt_PT_ao90.png",
+      "local": "/images/pt_PT_ao90.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/en_US.png",
+      "local": "/images/en_US.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/pt_PT_ao90.png",
+      "local": "/images/pt_PT_ao90.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/GGSDevTeam-WhatsApp-Image-2025-01-17-at-4.44.18-PM-17.jpeg",
+      "local": "/images/GGSDevTeam-WhatsApp-Image-2025-01-17-at-4.44.18-PM-17.jpeg"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/GGSDevTeam-WhatsApp-Image-2025-01-17-at-4.44.18-PM-11-scaled.jpeg",
+      "local": "/images/GGSDevTeam-WhatsApp-Image-2025-01-17-at-4.44.18-PM-11-scaled.jpeg"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/GGSDevTeam-WhatsApp-Image-2025-01-17-at-4.44.18-PM-16-1.jpeg",
+      "local": "/images/GGSDevTeam-WhatsApp-Image-2025-01-17-at-4.44.18-PM-16-1.jpeg"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/GGSDevTeam-WhatsApp-Image-2025-01-17-at-4.44.18-PM-14-scaled.jpeg",
+      "local": "/images/GGSDevTeam-WhatsApp-Image-2025-01-17-at-4.44.18-PM-14-scaled.jpeg"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/GGSDevTeam-WhatsApp-Image-2025-01-17-at-4.44.18-PM-10-scaled.jpeg",
+      "local": "/images/GGSDevTeam-WhatsApp-Image-2025-01-17-at-4.44.18-PM-10-scaled.jpeg"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/GGSDevTeam-WhatsApp-Image-2025-01-17-at-4.44.18-PM-1.jpeg",
+      "local": "/images/GGSDevTeam-WhatsApp-Image-2025-01-17-at-4.44.18-PM-1.jpeg"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/GGSDevTeam-WhatsApp-Image-2025-01-17-at-4.44.18-PM-9.jpeg",
+      "local": "/images/GGSDevTeam-WhatsApp-Image-2025-01-17-at-4.44.18-PM-9.jpeg"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/GGSDevTeam-WhatsApp-Image-2025-01-17-at-4.44.18-PM-13.jpeg",
+      "local": "/images/GGSDevTeam-WhatsApp-Image-2025-01-17-at-4.44.18-PM-13.jpeg"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/GGSDevTeam-WhatsApp-Image-2025-01-17-at-4.44.18-PM-8.jpeg",
+      "local": "/images/GGSDevTeam-WhatsApp-Image-2025-01-17-at-4.44.18-PM-8.jpeg"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/Corrected.png",
+      "local": "/images/Corrected.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/1665500365947.jpg",
+      "local": "/images/1665500365947.jpg"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/1517286644232.jpg",
+      "local": "/images/1517286644232.jpg"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/EnzoS.jpg",
+      "local": "/images/EnzoS.jpg"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/GGS-StaffRita1v3.png",
+      "local": "/images/GGS-StaffRita1v3.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/Picture4.jpg",
+      "local": "/images/Picture4.jpg"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/Picture4.jpg",
+      "local": "/images/Picture4.jpg"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/GGS-StaffRita1v3.png",
+      "local": "/images/GGS-StaffRita1v3.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/EnzoS.jpg",
+      "local": "/images/EnzoS.jpg"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/1517286644232.jpg",
+      "local": "/images/1517286644232.jpg"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/1665500365947.jpg",
+      "local": "/images/1665500365947.jpg"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/Corrected.png",
+      "local": "/images/Corrected.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/logo-goose-footer.png",
+      "local": "/images/logo-goose-footer.png"
+    },
+    {
+      "original": "https://pixel.wp.com/g.gif?v=ext&blog=250037654&post=987515599&tz=0&srv=goosegamestudio.com&j=1%3A15.2.1&host=goosegamestudio.com&ref=&fcp=1940&rand=0.7411658546748903",
+      "local": "/images/g.gif"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/GGSNLogov2.png",
+      "local": "/images/GGSNLogov2.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/en_US.png",
+      "local": "/images/en_US.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/pt_PT_ao90.png",
+      "local": "/images/pt_PT_ao90.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/en_US.png",
+      "local": "/images/en_US.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/pt_PT_ao90.png",
+      "local": "/images/pt_PT_ao90.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/Plot-Mock3.jpg",
+      "local": "/images/Plot-Mock3.jpg"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/CAR-Mock2.jpg",
+      "local": "/images/CAR-Mock2.jpg"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/IslandLords-Back83L.jpg",
+      "local": "/images/IslandLords-Back83L.jpg"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/GP-Website2.jpg",
+      "local": "/images/GP-Website2.jpg"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/Baltics-Back622L.jpg",
+      "local": "/images/Baltics-Back622L.jpg"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/jovian.jpg",
+      "local": "/images/jovian.jpg"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/logo-goose-footer.png",
+      "local": "/images/logo-goose-footer.png"
+    },
+    {
+      "original": "https://pixel.wp.com/g.gif?v=ext&blog=250037654&post=602&tz=0&srv=goosegamestudio.com&j=1%3A15.2.1&host=goosegamestudio.com&ref=&fcp=0&rand=0.9997081710617117",
+      "local": "/images/g.gif"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/GGSNLogov2.png",
+      "local": "/images/GGSNLogov2.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/en_US.png",
+      "local": "/images/en_US.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/pt_PT_ao90.png",
+      "local": "/images/pt_PT_ao90.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/en_US.png",
+      "local": "/images/en_US.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/pt_PT_ao90.png",
+      "local": "/images/pt_PT_ao90.png"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/Plot-Mock3.jpg",
+      "local": "/images/Plot-Mock3.jpg"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/CAR-Mock2.jpg",
+      "local": "/images/CAR-Mock2.jpg"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/IslandLords-Back83L.jpg",
+      "local": "/images/IslandLords-Back83L.jpg"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/GP-Website2.jpg",
+      "local": "/images/GP-Website2.jpg"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/Baltics-Back622L.jpg",
+      "local": "/images/Baltics-Back622L.jpg"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/jovian.jpg",
+      "local": "/images/jovian.jpg"
+    },
+    {
+      "original": "https://goosegamestudio.com/wp-content/uploads/logo-goose-footer.png",
+      "local": "/images/logo-goose-footer.png"
+    },
+    {
+      "original": "https://pixel.wp.com/g.gif?v=ext&blog=250037654&post=602&tz=0&srv=goosegamestudio.com&j=1%3A15.2.1&host=goosegamestudio.com&ref=&fcp=0&rand=0.9997081710617117",
+      "local": "/images/g.gif"
+    }
+  ]
+}
