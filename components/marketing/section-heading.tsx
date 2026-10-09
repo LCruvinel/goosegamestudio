@@ -15,9 +15,9 @@ export function SectionHeading({
 
   return (
     <div className={alignment}>
-      <p className="text-xs font-semibold uppercase tracking-[0.25em] text-amber-300">{eyebrow}</p>
-      <h2 className="mt-3 text-3xl font-black tracking-tight text-white sm:text-4xl">{title}</h2>
-      {description ? <p className="mx-auto mt-4 max-w-2xl text-base text-slate-300">{description}</p> : null}
+      <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#1CB57E]">{eyebrow}</p>
+      <h2 className="mt-3 text-3xl font-black tracking-tight text-[#0f1f1d] sm:text-4xl">{title}</h2>
+      {description ? <p className="mx-auto mt-4 max-w-2xl text-base text-[#29463d]">{description}</p> : null}
     </div>
   );
 }

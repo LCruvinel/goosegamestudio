@@ -2,7 +2,7 @@
 
 import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
-import { useCallback, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 
 export type TeamMember = {
   id: string;
@@ -18,20 +18,36 @@ type TeamCarouselProps = {
 
 export function TeamCarousel({ members }: TeamCarouselProps) {
   const [activeIndex, setActiveIndex] = useState(0);
+  const [isAutoPlaying, setIsAutoPlaying] = useState(true);
   const touchStartX = useRef<number | null>(null);
   const touchStartY = useRef<number | null>(null);
+  const idleTimerRef = useRef<number | null>(null);
 
   if (members.length === 0) {
     return null;
   }
 
   const activeMember = members[activeIndex];
+  const formattedBio = activeMember.bio.replace(/\\n/g, "\n");
+
+  const restartAutoPlay = useCallback(() => {
+    setIsAutoPlaying(false);
+
+    if (idleTimerRef.current) {
+      window.clearTimeout(idleTimerRef.current);
+    }
+
+    idleTimerRef.current = window.setTimeout(() => {
+      setIsAutoPlaying(true);
+    }, 6000);
+  }, []);
 
   const goToSlide = useCallback(
     (nextIndex: number) => {
       setActiveIndex((nextIndex + members.length) % members.length);
+      restartAutoPlay();
     },
-    [members.length],
+    [members.length, restartAutoPlay],
   );
 
   const handleKeyDown = useCallback(
@@ -56,14 +72,34 @@ export function TeamCarousel({ members }: TeamCarouselProps) {
         default:
           break;
       }
+
+      restartAutoPlay();
     },
-    [activeIndex, goToSlide, members.length],
+    [activeIndex, goToSlide, members.length, restartAutoPlay],
   );
+
+  useEffect(() => {
+    if (!isAutoPlaying) {
+      return;
+    }
+
+    const timer = window.setInterval(() => {
+      setActiveIndex((currentIndex) => (currentIndex + 1) % members.length);
+    }, 6000);
+
+    return () => {
+      window.clearInterval(timer);
+      if (idleTimerRef.current) {
+        window.clearTimeout(idleTimerRef.current);
+      }
+    };
+  }, [isAutoPlaying, members.length]);
 
   const handleTouchStart = (event: React.TouchEvent<HTMLDivElement>) => {
     const touch = event.changedTouches[0];
     touchStartX.current = touch.clientX;
     touchStartY.current = touch.clientY;
+    restartAutoPlay();
   };
 
   const handleTouchEnd = (event: React.TouchEvent<HTMLDivElement>) => {
@@ -108,47 +144,54 @@ export function TeamCarousel({ members }: TeamCarouselProps) {
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -32 }}
             transition={{ duration: 0.28, ease: "easeOut" }}
-            className="grid gap-6 lg:grid-cols-[1.05fr_0.95fr]"
+            className="grid gap-6 lg:grid-cols-[0.84fr_1.16fr]"
           >
-            <div className="relative h-[420px] overflow-hidden rounded-[1.5rem] bg-slate-100">
-              <Image
-                src={activeMember.image}
-                alt={`${activeMember.name}, ${activeMember.role}`}
-                fill
-                priority
-                sizes="(max-width: 1024px) 100vw, 50vw"
-                className="object-cover"
-              />
+            <div className="relative flex h-[309px] w-[220px] shrink-0 self-center items-center justify-center lg:justify-self-center">
+              <div className="absolute inset-0 translate-x-3 translate-y-3 rotate-[7deg] rounded-[1.5rem] border border-slate-200 bg-slate-200/80 shadow-[0_10px_18px_rgba(17,24,39,0.06)]" />
+              <div className="relative flex h-[309px] w-[220px] items-center justify-center overflow-hidden rounded-[1.5rem] border border-slate-200 bg-slate-100 shadow-[0_18px_32px_rgba(17,24,39,0.08)] ring-1 ring-white/80 rotate-[-4deg]">
+                <Image
+                  src={activeMember.image}
+                  alt={`${activeMember.name}, ${activeMember.role}`}
+                  fill
+                  priority
+                  sizes="220px"
+                  className="h-full w-full object-cover object-center"
+                  style={{ objectPosition: "center" }}
+                />
+              </div>
             </div>
 
-            <div className="flex flex-col justify-center">
-              <p className="text-xs font-semibold uppercase tracking-[0.26em] text-amber-700">Team</p>
-              <h3 className="mt-3 text-3xl font-black tracking-tight text-slate-900 sm:text-4xl">
-                {activeMember.name}
-              </h3>
-              <p className="mt-2 text-base font-semibold uppercase tracking-[0.18em] text-slate-600">
-                {activeMember.role}
-              </p>
-              <p className="mt-5 max-w-lg text-base leading-8 text-slate-700">{activeMember.bio}</p>
+            <div className="flex h-[477.1305px] w-full flex-col justify-center overflow-hidden">
+              <p className="text-[10px] font-semibold uppercase tracking-[0.26em] text-amber-700">Team</p>
 
-              <div className="mt-8 flex items-center gap-3">
-                <button
-                  type="button"
-                  onClick={() => goToSlide(activeIndex - 1)}
-                  className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-slate-300 bg-white text-lg text-slate-700 transition hover:border-amber-400 hover:text-amber-700"
-                  aria-label="Previous team member"
-                >
-                  ←
-                </button>
-                <button
-                  type="button"
-                  onClick={() => goToSlide(activeIndex + 1)}
-                  className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-slate-300 bg-white text-lg text-slate-700 transition hover:border-amber-400 hover:text-amber-700"
-                  aria-label="Next team member"
-                >
-                  →
-                </button>
+              <div className="mt-3 flex items-center gap-4">
+                <div className="relative h-16 w-16 overflow-hidden rounded-full border border-slate-200 bg-slate-100 shadow-sm ring-2 ring-white">
+                  <Image
+                    src={activeMember.image}
+                    alt={`${activeMember.name} portrait`}
+                    fill
+                    priority
+                    sizes="64px"
+                    className="object-cover object-center"
+                  />
+                </div>
+
+                <div>
+                  <h3 className="text-2xl font-black tracking-tight text-slate-900 sm:text-3xl">
+                    {activeMember.name}
+                  </h3>
+                  <p className="mt-1 text-sm font-semibold uppercase tracking-[0.18em] text-slate-600">
+                    {activeMember.role}
+                  </p>
+                </div>
               </div>
+
+              <div className="mt-5 max-w-lg flex-1 overflow-hidden">
+                <p className="whitespace-pre-line text-sm leading-7 text-slate-700 sm:text-[15px] sm:leading-8">
+                  {formattedBio}
+                </p>
+              </div>
+
             </div>
           </motion.div>
         </AnimatePresence>

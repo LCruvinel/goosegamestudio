@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export function SiteFooter() {
@@ -6,8 +7,14 @@ export function SiteFooter() {
       <div className="mx-auto grid max-w-7xl gap-10 px-6 py-12 sm:px-8 lg:grid-cols-3 lg:px-12">
         <div>
           <div className="flex items-center gap-3">
-            <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-[#d9b971] bg-[#103129] text-sm font-black text-[#f5e3b0]">
-              GGS
+            <div className="flex h-[150px] w-[150px] items-center justify-center overflow-hidden rounded-xl bg-transparent">
+              <Image
+                src="/logo-goose-footer.png"
+                alt="Goose Game Studio logo"
+                width={150}
+                height={150}
+                className="h-[150px] w-[150px] object-contain"
+              />
             </div>
             <div className="text-xl font-black tracking-tight text-white">Goose Game Studio</div>
           </div>

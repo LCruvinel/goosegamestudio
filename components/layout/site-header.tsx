@@ -27,10 +27,10 @@ export function SiteHeader() {
   const [isGamesOpen, setIsGamesOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b-[1px] border-[#0f8a60] bg-[#1CB57E]/95 backdrop-blur-xl">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-1.5 sm:px-8 lg:px-12">
+    <header className="sticky top-0 z-50 h-[60px] border-b-[1px] border-[#0f8a60] bg-[#1CB57E]/95 backdrop-blur-xl">
+      <div className="mx-auto flex h-full max-w-7xl items-center justify-between px-6 sm:px-8 lg:px-12">
         <Link href="/" className="flex items-center gap-3">
-          <div className="relative h-[65px] w-[105px] overflow-hidden rounded-md bg-transparent">
+          <div className="relative h-[45px] w-[75px] overflow-hidden rounded-md bg-transparent">
             <Image
               src="https://goosegamestudio.com/wp-content/uploads/GGSNLogov2.png"
               alt="Goose Game Studio logo"
@@ -50,7 +50,7 @@ export function SiteHeader() {
             if (item.label === "Our Games") {
               return (
                 <div key={item.href} className="group relative flex items-center">
-                  {showDivider && <span className="mr-3 h-[72px] w-[1px] bg-white/95" aria-hidden="true" />}
+                  {showDivider && <span className="mr-3 h-[60px] w-[1px] bg-white/95" aria-hidden="true" />}
                   <button
                     type="button"
                     className="flex items-center gap-2 px-2 text-[11px] font-semibold tracking-[0.2em] text-white/90 transition hover:text-[#d7f7ea]"
@@ -79,7 +79,7 @@ export function SiteHeader() {
 
             return (
               <div key={item.href} className="flex items-center">
-                {showDivider && <span className="mr-3 h-[72px] w-[1px] bg-white/95" aria-hidden="true" />}
+                {showDivider && <span className="mr-3 h-[60px] w-[1px] bg-white/95" aria-hidden="true" />}
                 {isExternal ? (
                   <a
                     href={item.href}
@@ -99,19 +99,25 @@ export function SiteHeader() {
           })}
         </nav>
 
-        <button
-          type="button"
-          aria-label="Toggle navigation menu"
-          aria-expanded={isOpen}
-          onClick={() => setIsOpen((current) => !current)}
-          className="inline-flex h-10 w-10 items-center justify-center rounded-md border border-white/40 bg-white/10 text-white md:hidden"
-        >
-          <span className="flex flex-col gap-1.5">
-            <span className="block h-[2px] w-5 bg-white" />
-            <span className="block h-[2px] w-5 bg-white" />
-            <span className="block h-[2px] w-5 bg-white" />
-          </span>
-        </button>
+        <div className="flex items-center gap-2 md:hidden">
+          <button
+            type="button"
+            aria-label="Toggle navigation menu"
+            aria-expanded={isOpen}
+            onClick={() => setIsOpen((current) => !current)}
+            className="inline-flex h-10 w-10 items-center justify-center rounded-md border border-white/40 bg-white/10 text-white"
+          >
+            <span className="flex flex-col gap-1.5">
+              <span className="block h-[2px] w-5 bg-white" />
+              <span className="block h-[2px] w-5 bg-white" />
+              <span className="block h-[2px] w-5 bg-white" />
+            </span>
+          </button>
+
+          <Link href="/contact" className="text-[11px] font-semibold tracking-[0.2em] text-white/90">
+            Contact
+          </Link>
+        </div>
       </div>
 
       {isOpen && (

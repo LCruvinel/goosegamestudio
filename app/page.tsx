@@ -156,35 +156,26 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="border-y border-[#e6d7b6] bg-[#efe3c8]">
-        <div className="mx-auto grid max-w-7xl gap-8 px-6 py-12 sm:grid-cols-2 lg:grid-cols-4 sm:px-8 lg:px-12">
-          {studioStats.map((stat) => (
-            <div key={stat.label} className="rounded-[1.5rem] border border-[#d8c29a] bg-[#f6f1e6] p-6 text-center shadow-sm">
-              <div className="text-4xl font-black tracking-tight text-[#0c1f1a]">{stat.value}</div>
-              <div className="mt-3 text-sm text-[#3f4b46]">{stat.label}</div>
-            </div>
-          ))}
+      <section className="bg-[#ECFCF6] px-6 py-20 sm:px-8 lg:px-12">
+        <div className="mx-auto max-w-7xl">
+          <SectionHeading
+            eyebrow="Our games"
+            title="A catalogue shaped by strategy, story, and memorable table moments."
+            description="From bluff-heavy duels to diplomatic conflicts and tense space opera command, each design explores a different way to bring players together."
+            align="center"
+          />
+
+          <div className="mt-12 grid gap-8 md:grid-cols-2 xl:grid-cols-3">
+            {games.map((game) => (
+              <GameCard key={game.slug} game={game} />
+            ))}
+          </div>
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-6 py-20 sm:px-8 lg:px-12">
-        <SectionHeading
-          eyebrow="Our games"
-          title="A catalogue shaped by strategy, story, and memorable table moments."
-          description="From bluff-heavy duels to diplomatic conflicts and tense space opera command, each design explores a different way to bring players together."
-          align="center"
-        />
-
-        <div className="mt-12 grid gap-8 md:grid-cols-2 xl:grid-cols-3">
-          {games.map((game) => (
-            <GameCard key={game.slug} game={game} />
-          ))}
-        </div>
-      </section>
-
-      <section className="bg-[#f4efe7] py-20">
+      <section className="bg-[#0b0b0b] py-20">
         <div className="mx-auto grid max-w-7xl gap-10 px-6 lg:grid-cols-[0.82fr_1.18fr] sm:px-8 lg:px-12">
-          <div className="overflow-hidden rounded-[2rem] border border-[#d7c6a2] bg-[#10271f] shadow-[0_22px_60px_rgba(13,29,22,0.2)]">
+          <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-[#10271f] shadow-[0_22px_60px_rgba(13,29,22,0.2)]">
             <div
               className="h-full min-h-[440px] bg-cover bg-center"
               style={{ backgroundImage: "url(https://goosegamestudio.com/wp-content/uploads/GGSNLogov2.png)" }}
@@ -192,54 +183,56 @@ export default function HomePage() {
           </div>
 
           <div className="flex flex-col justify-center">
-            <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[#9b7c2a]">Who are we</p>
-            <h2 className="mt-4 text-4xl font-black tracking-tight text-[#12231d] sm:text-5xl">
+            <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-white">Who are we</p>
+            <h2 className="mt-4 text-4xl font-black tracking-tight text-white sm:text-5xl">
               A small but driven studio obsessed with great tabletop ideas.
             </h2>
-            <p className="mt-5 max-w-xl text-lg leading-8 text-[#3d4f46]">
+            <p className="mt-5 max-w-xl text-lg leading-8 text-white/80">
               Goose Game Studio is a creative team dedicated to making games that are imaginative, memorable,
               and built to bring people together around the table. Founded by lifelong game enthusiasts, the studio draws on a blend of design thinking, engineering, and entrepreneurial energy.
             </p>
             <div className="mt-8 grid gap-4 sm:grid-cols-2">
-              <div className="rounded-2xl border border-[#d8c29a] bg-[#fffaf2] p-5 shadow-sm">
-                <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-[#6a716b]">Our approach</p>
-                <p className="mt-3 text-xl font-bold text-[#12231d]">Creative and curious</p>
+              <div className="rounded-2xl border border-white/10 bg-[#111111] p-5 shadow-sm">
+                <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-white/70">Our approach</p>
+                <p className="mt-3 text-xl font-bold text-white">Creative and curious</p>
               </div>
-              <div className="rounded-2xl border border-[#d8c29a] bg-[#fffaf2] p-5 shadow-sm">
-                <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-[#6a716b]">Our focus</p>
-                <p className="mt-3 text-xl font-bold text-[#12231d]">Designs with narrative weight</p>
+              <div className="rounded-2xl border border-white/10 bg-[#111111] p-5 shadow-sm">
+                <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-white/70">Our focus</p>
+                <p className="mt-3 text-xl font-bold text-white">Designs with narrative weight</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-6 py-20 sm:px-8 lg:px-12">
-        <div className="mb-12 text-center">
-          <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[#9b7c2a]">Our approach</p>
-          <h2 className="mt-4 text-4xl font-black tracking-tight text-[#12231d] sm:text-5xl">
-            We build games from the spark of an idea and let the design story grow from there.
-          </h2>
-        </div>
+      <section className="bg-[#0b0b0b] py-20">
+        <div className="mx-auto max-w-7xl px-6 sm:px-8 lg:px-12">
+          <div className="mb-12 text-center">
+            <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-white">Our approach</p>
+            <h2 className="mt-4 text-4xl font-black tracking-tight text-white sm:text-5xl">
+              We build games from the spark of an idea and let the design story grow from there.
+            </h2>
+          </div>
 
-        <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
-          {philosophy.map((item) => (
-            <div key={item.title} className="rounded-[1.75rem] border border-[#d7c6a2] bg-[#fffaf1] p-6 shadow-[0_12px_28px_rgba(16,39,31,0.08)]">
-              <div className="mb-4 h-12 w-12 rounded-2xl bg-[linear-gradient(135deg,#d9b971,#a77c3a)]" />
-              <h3 className="text-xl font-bold text-[#12231d]">{item.title}</h3>
-              <p className="mt-3 text-base leading-7 text-[#45605a]">{item.text}</p>
-            </div>
-          ))}
+          <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+            {philosophy.map((item) => (
+              <div key={item.title} className="rounded-[1.75rem] border border-white/10 bg-[#111111] p-6 shadow-[0_12px_28px_rgba(0,0,0,0.28)]">
+                <div className="mb-4 h-12 w-12 rounded-2xl bg-[linear-gradient(135deg,#d9b971,#a77c3a)]" />
+                <h3 className="text-xl font-bold text-white">{item.title}</h3>
+                <p className="mt-3 text-base leading-7 text-white/75">{item.text}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-6 pb-20 sm:px-8 lg:px-12">
-        <div className="rounded-[2.25rem] border border-[#d5bf91] bg-[linear-gradient(135deg,#f7f0df_0%,#efe3c6_50%,#f7f5f1_100%)] p-8 text-center shadow-[0_20px_48px_rgba(11,20,18,0.12)] sm:p-12">
-          <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[#906e1c]">We are always open</p>
-          <h2 className="mt-4 text-4xl font-black tracking-tight text-[#12231d] sm:text-5xl">
+      <section className="mx-auto max-w-6xl px-6 py-10 sm:px-8 lg:px-12">
+        <div className="rounded-[2.25rem] border border-[#d5bf91] bg-[#1CB57E] p-8 text-center shadow-[0_20px_48px_rgba(11,20,18,0.12)] sm:p-12">
+          <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-white">We are always open</p>
+          <h2 className="mt-4 text-4xl font-black tracking-tight text-white sm:text-5xl">
             If the idea makes us ask, “would I play this?” then we are ready to explore it.
           </h2>
-          <p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-[#425b54]">
+          <p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-white/85">
             We are always open to collaborating and listening to new ideas, building on creative sparks, and translating them into game experiences that surprise and delight players.
           </p>
           <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
